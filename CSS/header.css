@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=montserrat&display=swap');
+
+header {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 100px;
+}
+
+.logo_img {
+    height: 50px;
+    width: 209.68 px;
+}
+
+nav {
+    display: flex;
+    gap: 40px;
+}
+
+ul{
+    display: grid;
+    grid-auto-flow: column;
+    column-gap: 10px;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+ul > li > a {
+    color: var(--body-color);
+    text-decoration: none;
+    font-family: 'Mmontserrat sans-serif';
+    size: 16px;
+    font-weight: 500;
+}
+
+.link_authenticate > :first-child > a{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.user_icon{
+    height: 20px;
+    width: 20px;
+}
+/* 
+    When an element is active
+*/
+
+.active{
+    color: var(--primary-color);
+}
